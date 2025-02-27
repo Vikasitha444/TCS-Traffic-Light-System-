@@ -54,4 +54,4 @@ If 25 requests have been expired, replace the OCR code as follows:
 - If Arduino reports LCD errors, try resetting the board or checking the LCD connections
 
 ---
-*For further assistance, contact repository owner or refer to the project documentation*
+*For further assistance, contact me or refer to the project documentation*
