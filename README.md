@@ -1,6 +1,8 @@
 # TCS-Traffic-Light-System
 ## How to Run: Step-by-Step Guide
 
+![Image Alt Text](READ ME! How to Run Step by Step/The circit diagram.png)
+
 ### Prerequisites
 - PyScripter installed
 - Arduino IDE installed
