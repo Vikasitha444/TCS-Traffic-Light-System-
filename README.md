@@ -1,58 +1,57 @@
-# 🚦 TCS-Traffic-Light-System 🚦
-## ⚙️ HOW TO RUN? Step by Step Guide ⚙️
+# TCS-Traffic-Light-System
+## How to Run: Step-by-Step Guide
 
-### 📝 Circuit Diagram
-![Circuit Diagram](The%20circit%20diagram.png)
-*This is the circuit diagram for the TCS Traffic Light System*
+### Prerequisites
+- PyScripter installed
+- Arduino IDE installed
+- Traffic Control System hardware connected properly
 
-### 📋 Follow These Steps Carefully 📋
+### Setup Steps
 
-# 1️⃣ First Open 'Test 4 - With OCR Rapid API/ Test 4 - Part 3 [Webcam].py' in Pyscripter
+#### 1. Open Required Software
+- First, open **'Test 4 - With OCR Rapid API/ Test 4 - Part 3 [Webcam].py'** in PyScripter
+- Next, open **'Arduino Part\Project TCS\FullCode.ino'** in Arduino IDE
 
-# 2️⃣ Second Open Arduino IDE 'Arduino Part\Project TCS\FullCode.ino'
+#### 2. Arrange Windows (IMPORTANT)
+- Press **Win + ←** key to align PyScripter to the left side of screen
+- Press **Win + →** key to align Arduino IDE to the right side of screen
+- *Note: Proper window arrangement is crucial for the system to work correctly*
 
-# 3️⃣ Then press win + ← key to align, pyscripter to the left
-   * This step is VERY IMPORTANT!
+#### 3. OCR API Setup
+If 25 requests have been expired, replace the OCR code as follows:
 
-# 4️⃣ Then press win + → key to align, Arduino IDE to the right
-   * ⚠️ STEP 3 AND 4 ARE EXTREMELY IMPORTANT! ⚠️
+1. Visit [https://rapidapi.com/api4ai-api4ai-default/api/ocr43](https://rapidapi.com/api4ai-api4ai-default/api/ocr43)
+2. Select code type: **Python → Requests**
+3. Copy the provided code
+4. Click on **"Test End-point"**
+5. Select the free plan and subscribe (Free plan includes 25 requests per month)
+6. **IMPORTANT**: Change the 3rd line of the code to:
+   ```python
+   files = {"image": open(r"WIN_20240321_09_55_18_Pro.jpg", "rb")}
+   ```
+   *Without this change, the code will not work properly*
 
-# 5️⃣ If 25 requests has been expired, replace that code as following:
-   - 01) First go to this link:
-     https://rapidapi.com/api4ai-api4ai-default/api/ocr43
-   
-   - 02) Copy code (before copy select the code type to Python --> Requests)
-   
-   - 03) Then click on "Test End-point"
-   
-   - 04) Select the free plan and subscribe to it. (Free plan only has 25 requests per month)
-   
-   - 05) ❗IMPORTANT❗: Change the 3rd line of the code to:
-     ```python
-     files = {"image": open(r"WIN_20240321_09_55_18_Pro.jpg", "rb")}
-     ```
-     Otherwise code won't work!
+#### 4. Upload Arduino Code
+- Connect Arduino board to your computer
+- Select the correct board and port in Arduino IDE
+- Click the Upload button (→) to load the code to the Arduino board
+- If any errors occur with the LCD screen, upload a sample LCD code first to fix initialization issues
 
-# 6️⃣ Upload the code to the arduino board
-   * Make sure the correct port is selected
+#### 5. Begin Operation
+- Open the Serial Monitor in Arduino IDE (Ctrl + Shift + M)
+- Return to PyScripter and run the Python program (F9)
 
-# 7️⃣ If there are any error with LCD screen, upload a sample code to fix it
+### Important Notes
+- Ensure PyScripter and Arduino IDE remain aligned left and right
+- After pressing Run (F9), don't press any other keys or move windows
+- The system requires both programs to run simultaneously
+- If the OCR API stops working, you may need to renew the subscription or use a different API key
 
-# 8️⃣ Open the serial monitor (ctrl + shift + m)
-
-# 9️⃣ Then Start the Python Program by pressing F9
-
-## ❗❗ IMPORTANT NOTES ❗❗
-- Pyscripter and Arduino IDE should be aligned to left and right
-- After pressing the Run(F9) button, Do not press anything
-- Do not move or resize windows during operation
-- Make sure all hardware connections are properly made
-
-## 🔧 Troubleshooting 🔧
-- If Arduino isn't detected, check USB connection
-- If OCR isn't working, check if API requests are exhausted
-- For LCD issues, check wiring and contrast settings
+### Troubleshooting
+- If communication errors occur, check the serial port settings in both programs
+- Verify all hardware connections are secure
+- Make sure the webcam is properly connected and recognized
+- If Arduino reports LCD errors, try resetting the board or checking the LCD connections
 
 ---
-*Created for TCS-Traffic-Light-System*
-*https://github.com/Vikasitha444/TCS-Traffic-Light-System-.git*
+*For further assistance, contact repository owner or refer to the project documentation*
