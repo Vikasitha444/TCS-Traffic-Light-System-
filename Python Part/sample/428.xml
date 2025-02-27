@@ -1,0 +1,26 @@
+<annotation>
+	<folder>427 - 443 (Oshada)</folder>
+	<filename>428.jpg</filename>
+	<path>D:\Education\Final Year Project\Annotation\427 - 443 (Oshada)\428.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2560</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>SLS-100</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>528</xmin>
+			<ymin>641</ymin>
+			<xmax>597</xmax>
+			<ymax>710</ymax>
+		</bndbox>
+	</object>
+</annotation>

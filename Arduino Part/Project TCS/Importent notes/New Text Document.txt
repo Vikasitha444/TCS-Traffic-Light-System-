@@ -1,0 +1,9 @@
+LiquidCrystal_I2C.h Librarya install kala
+file extention hide karann
+
+notare wire eka natte + patte
+
+
+Buzzer
+jumpercable
+9V baterry

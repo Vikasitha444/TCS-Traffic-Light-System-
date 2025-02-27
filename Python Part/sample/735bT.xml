@@ -1,0 +1,38 @@
+<annotation>
+	<folder>726 - 744 (Damith)</folder>
+	<filename>735bT.jpg</filename>
+	<path>F:\FYP resources\Annotator\726 - 744 (Damith)\735bT.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2560</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>PHS-03</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1119</xmin>
+			<ymin>672</ymin>
+			<xmax>1164</xmax>
+			<ymax>719</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>TLS-G</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1095</xmin>
+			<ymin>582</ymin>
+			<xmax>1124</xmax>
+			<ymax>667</ymax>
+		</bndbox>
+	</object>
+</annotation>

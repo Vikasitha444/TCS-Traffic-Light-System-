@@ -1,0 +1,26 @@
+<annotation>
+	<folder>942 - 982 (Damith)</folder>
+	<filename>980a.jpg</filename>
+	<path>/home/ace/Desktop/DamithK/Annotations/942 - 982 (Damith)/980a.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2560</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>OSD-01</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>525</xmin>
+			<ymin>464</ymin>
+			<xmax>587</xmax>
+			<ymax>530</ymax>
+		</bndbox>
+	</object>
+</annotation>

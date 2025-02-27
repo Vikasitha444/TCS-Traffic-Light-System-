@@ -1,0 +1,24 @@
+How to setup this.
+
+
+01) First go to this link
+	https://rapidapi.com/api4ai-api4ai-default/api/ocr43
+
+
+02) Copy code (before copy select the code type to Python --> Requests)
+
+03) Then click on "Test End-point"
+
+
+04) Select the free plan and subscribe to it. (Free plan only has 25 reqeusts per month)
+
+
+05) !importent : Change the 3rd line of the code to,
+	files = {"image": open(r"WIN_20240321_09_55_18_Pro.jpg", "rb")}
+
+Otherwise code won't work
+
+
+
+
+Then you are ready to go

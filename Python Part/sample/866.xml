@@ -1,0 +1,26 @@
+<annotation>
+	<folder>857 - 899 (Oshada)</folder>
+	<filename>866.jpg</filename>
+	<path>D:\Education\Final Year Project\Annotation\857 - 899 (Oshada)\866.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2560</width>
+		<height>1440</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>OSD-26</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>525</xmin>
+			<ymin>555</ymin>
+			<xmax>648</xmax>
+			<ymax>615</ymax>
+		</bndbox>
+	</object>
+</annotation>

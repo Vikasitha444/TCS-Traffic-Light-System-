@@ -1,0 +1,78 @@
+#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+
+ //int value = 70;
+
+void setup() {
+  
+  Serial.begin(9600);
+
+
+
+  //--------------------Display-------------------------------
+   lcd.init();                      // initialize the lcd 
+    lcd.init();// Print a message to the LCD.
+    lcd.backlight();
+  //----------------------------------------------------------------
+
+
+
+
+  
+
+}
+
+void loop() {
+  
+    
+  //Display on the display start
+      lcd.setCursor(3, 0);
+      lcd.print("MONITORING");
+      lcd.setCursor(0, 1);
+      lcd.print("No Signal Found!");
+      
+    //Display on the display end
+
+  Serial.println("What is the speed limit");
+  while (Serial.available() == 0) {
+  }
+
+  int speed_limit = Serial.parseInt();
+
+
+
+
+  if(speed_limit != 0){
+
+
+    
+    
+    
+    //Display on the display start
+      lcd.clear();
+      delay(1000);
+      lcd.setCursor(2, 0);
+      lcd.print("Speed Limit");
+      lcd.setCursor(2, 1);
+      lcd.print("Processing");
+      delay(3000);
+      lcd.clear();
+      lcd.clear();
+      delay(1000);
+      lcd.setCursor(1, 0);
+      lcd.print("Reducing Speed");
+      lcd.setCursor(2, 1);
+      lcd.print(String(speed_limit) + "Kmph");
+      delay(4000);
+      lcd.clear();
+      lcd.clear();
+      delay(1000);
+    //Display on the display end
+
+
+
+  }
+
+}
