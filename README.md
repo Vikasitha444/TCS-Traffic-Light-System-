@@ -2,6 +2,8 @@
 ## How to Run: Step-by-Step Guide
 
 
+### Diagram
+
 ![Circuit Diagram](The%20circit%20diagram.png)
 
 ### Prerequisites
