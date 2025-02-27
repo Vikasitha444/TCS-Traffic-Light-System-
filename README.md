@@ -1,7 +1,8 @@
 # TCS-Traffic-Light-System
 ## How to Run: Step-by-Step Guide
 
-![Image Alt Text](The circit diagram.png)
+
+![Circuit Diagram](The%20circit%20diagram.png)
 
 ### Prerequisites
 - PyScripter installed
