@@ -2,8 +2,10 @@
 ## ⚙️ HOW TO RUN? Step by Step Guide ⚙️
 
 ### 📝 Circuit Diagram
-![Circuit Diagram](The%20circit%20diagram.png)
+![Circuit Diagram](circuit-diagram.png)
 *This is the circuit diagram for the TCS Traffic Light System*
+
+Note: You will need to upload the circuit diagram image with the filename "circuit-diagram.png" to your repository.
 
 ### 📋 Follow These Steps Carefully 📋
 
